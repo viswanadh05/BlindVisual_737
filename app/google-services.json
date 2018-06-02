@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "791698403891",
+    "firebase_url": "https://projectforblind-6b556.firebaseio.com",
+    "project_id": "projectforblind-6b556",
+    "storage_bucket": "projectforblind-6b556.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791698403891:android:277367d9f9dc7e63",
+        "android_client_info": {
+          "package_name": "sit737.project.blindvisual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791698403891-ukf7r2d6en6q7qt72unov1kmaeqjcokq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "791698403891-ukf7r2d6en6q7qt72unov1kmaeqjcokq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6zncOcwwKAegGtmrY5iSydXZwe3dP4JI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
