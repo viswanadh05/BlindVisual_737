@@ -5,11 +5,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /*	Masters Project.
-		Service Oriented and Architectures Design
-		
-		Team:
-		Kishan Patel
-		Viswanadh Bhaskarla
+	Service Oriented and Architectures Design
+
+	Team:
+	Kishan Patel
+	Viswanadh Bhaskarla
 	
 */
 
