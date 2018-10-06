@@ -9,6 +9,14 @@ import org.junit.runner.RunWith;
 
 import static org.junit.Assert.*;
 
+/*	Masters Project.
+    Service Oriented and Architectures Design
+
+    Team:
+    Kishan Patel
+    Viswanadh Bhaskarla
+*/
+
 /**
  * Instrumented test, which will execute on an Android device.
  *
