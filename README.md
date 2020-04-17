@@ -51,5 +51,7 @@ Running the Project:
   
 Images:
 
+1.Architecture:
 ![Architecture](https://user-images.githubusercontent.com/6322818/79527378-c704d600-80aa-11ea-92f7-42ef390dcaa2.jpg)
 
+2.
