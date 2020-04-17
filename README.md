@@ -49,3 +49,7 @@ Running the Project:
   6. Build the Android application and set an emulator for test.
   7. Run the application and get the response as an Audio.
   
+Images:
+
+![Architecture](https://user-images.githubusercontent.com/6322818/79527378-c704d600-80aa-11ea-92f7-42ef390dcaa2.jpg)
+
