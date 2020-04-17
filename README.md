@@ -20,31 +20,32 @@ Masters Project:
 Service Oriented and Architectures Design
 
 Team:
+<!----------------->
 Kishan Patel
 <!----------------->
 Viswanadh Bhaskarla
 
 Project specifications:
-  - Application Platform:     Android
-  - Emulator version:         Android Oreo
-  - Development IDE:          IntelliJ Android Studio
-  - Storage:                  Google Firebase
-  - Visual Recogntn Platform: IBM Blue mix Node red (Watson)
-  - Text to speech service:   Google speech service
+  1. Application Platform:     Android
+  2. Emulator version:         Android Oreo
+  3. Development IDE:          IntelliJ Android Studio
+  4. Storage:                  Google Firebase
+  5. Visual Recogntn Platform: IBM Blue mix Node red (Watson)
+  6. Text to speech service:   Google speech service
   
 Running the Project:
-  - Clone the project into a new folder
-  - Create Google Cloud Services account, get Text to Speech service and firebase API's with access keys.
-  - Update API's and access keys
-  - Create a new IBM node red account in IBM BlueMix. 
-  - Node Red: 
-    1. Create nodes for getting the images from Android Application (https get)
-    2. Initializing (Reforming the payload and getting respective image needed for image recognition)
-    3. Connecting to IBM visual recognition (Must have IBM Visual Recognition access, select classifyImage)
-    4. Reforming the text response (Loop through the msg.paylod and get the text required)
-       - msg.result.images[0].classifiers[0].classes[i]> and a condition to get classes > 0.60 for accuracy
-    5. Send the text response output to debug node and (http post node)
-  - Build the Android application and set an emulator for test.
-  - Run the application and get the response as an Audio.
+  1. Clone the project into a new folder
+  2. Create Google Cloud Services account, get Text to Speech service and firebase API's with access keys.
+  3. Update API's and access keys
+  4. Create a new IBM node red account in IBM BlueMix. 
+  5. Node Red: 
+    - Create nodes for getting the images from Android Application (https get)
+    - Initializing (Reforming the payload and getting respective image needed for image recognition)
+    - Connecting to IBM visual recognition (Must have IBM Visual Recognition access, select classifyImage)
+    - Reforming the text response (Loop through the msg.paylod and get the text required)
+      - msg.result.images[0].classifiers[0].classes[i]> and a condition to get classes > 0.60 for accuracy
+    - Send the text response output to debug node and (http post node)
+  6. Build the Android application and set an emulator for test.
+  7. Run the application and get the response as an Audio.
   
 
