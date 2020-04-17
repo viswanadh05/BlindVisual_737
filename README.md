@@ -6,8 +6,9 @@ Masters Project:
 Service Oriented and Architectures Design
 
 Team:
-#Kishan Patel
-#Viswanadh Bhaskarla
+Kishan Patel
+<!----------------->
+Viswanadh Bhaskarla
 
 Project Specifications:
   - Application Platform:     Android
