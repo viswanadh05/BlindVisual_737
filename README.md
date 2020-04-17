@@ -49,4 +49,3 @@ Running the Project:
   6. Build the Android application and set an emulator for test.
   7. Run the application and get the response as an Audio.
   
-
