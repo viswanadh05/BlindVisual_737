@@ -39,12 +39,19 @@ Running the Project:
   3. Update API's and access keys
   4. Create a new IBM node red account in IBM BlueMix. 
   5. Node Red: 
-    1. Create nodes for getting the images from Android Application (https get)
-    2. Initializing (Reforming the payload and getting respective image needed for image recognition)
-    3. Connecting to IBM visual recognition (Must have IBM Visual Recognition access, select classifyImage)
-    4. Reforming the text response (Loop through the msg.paylod and get the text required)
-      1. msg.result.images[0].classifiers[0].classes[i]> and a condition to get classes > 0.60 for accuracy
-    5. Send the text response output to debug node and (http post node)
+  <!------------------------------------------------------------------------------------------------------->
+    - Create nodes for getting the images from Android Application (https get)
+    <!----------------------------------------------------------------------------------------------------->
+    - Initializing (Reforming the payload and getting respective image needed for image recognition)
+    <!----------------------------------------------------------------------------------------------------->
+    - Connecting to IBM visual recognition (Must have IBM Visual Recognition access, select classifyImage)
+    <!----------------------------------------------------------------------------------------------------->
+    - Reforming the text response (Loop through the msg.paylod and get the text required)
+      <!--------------------------------------------------------------------------------------------------->
+      - msg.result.images[0].classifiers[0].classes[i]> and a condition to get classes > 0.60 for accuracy
+    <!----------------------------------------------------------------------------------------------------->
+    - Send the text response output to debug node and (http post node)
+    <!----------------------------------------------------------------------------------------------------->
   6. Build the Android application and set an emulator for test.
   7. Run the application and get the response as an Audio.
   
