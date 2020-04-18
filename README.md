@@ -1,31 +1,10 @@
-# BlindVisual_737
+# Project Title
+BlindVisual_737 - Android Application to assist blind people in perceiving object
 
-The lack of visual capabilities has limited the individuals from completely perceiving their immediate surroundings which has potential safety concerns and lowers their quality of life since they must rely on some sort of aid to get around. We are going to resolve the problem Through a cloud based android application, where the user takes the picture of specific area and then this picture is analyzed by the IBM tool later it is transformed into Audio format and will be send into the user Mobile for which the user can perceive about the picture.
-
-<!---------------------------------------------------------------------->
-
+### Getting Started
 The Aim of our project is to guide the visually impaired folios to perceive the things in surrounding environment with a sole Android app, concisely which helps them to listen about the things which they can’t see. 
 
-<!---------------------------------------------------------------------->
-
-Project core functions:
-
-1. User friendly Android application.
-2. Image analysis with IBM Image recognition in Node red. 
-3. Google's Text to speech analysis. 
-4. Better perspective for blind with Android features.
-5. Better Acoustic with Google's voice.
-
-Masters Project:
-Service Oriented and Architectures Design
-
-Team:
-<!----------------->
-Kishan Patel
-<!----------------->
-Viswanadh Bhaskarla
-
-Project specifications:
+### Prerequisites
   1. Application Platform:     Android
   2. Emulator version:         Android Oreo
   3. Development IDE:          IntelliJ Android Studio
@@ -33,23 +12,42 @@ Project specifications:
   5. Visual Recogntn Platform: IBM Blue mix Node red (Watson)
   6. Text to speech service:   Google speech service
   
-Running the Project:
-  1. Clone the project into a new folder
+### Built with
+
+__Android Programming Language__, __Node JS__, __Firebase__, __IBM and Google API's__ 
+
+### Description
+The lack of visual capabilities has limited the individuals from completely perceiving their immediate surroundings which has potential safety concerns and lowers their quality of life since they must rely on some sort of aid to get around. We are going to resolve the problem Through a cloud based android application, where the user takes the picture of specific area and then this picture is analyzed by the IBM tool later it is transformed into Audio format and will be send into the user Mobile for which the user can perceive about the picture.
+
+__Project core functions:__
+  1. User friendly Android application.
+  2. Image analysis with IBM Image recognition in Node red. 
+  3. Google's Text to speech analysis. 
+  4. Better perspective for blind with Android features.
+  5. Better Acoustic with Google's voice.
+
+### Running the Project
+  1. Clone the project into a new folder.
   2. Create Google Cloud Services account, get Text to Speech service and firebase API's with access keys.
-  3. Update API's and access keys
+  3. Update API's and access keys.
   4. Create a new IBM node red account in IBM BlueMix. 
-  5. Node Red: 
-  <!------------------------------------------------------------------------------------------------------->
-      - Create nodes for getting the images from Android Application (https get)
-      - Initializing (Reforming the payload and getting respective image needed for image recognition)
-      - Connecting to IBM visual recognition (Must have IBM Visual Recognition access, select classifyImage)
-      - Reforming the text response (Loop through the msg.paylod and get the text required)
-        - msg.result.images[0].classifiers[0].classes[i]> and a condition to get classes > 0.60 for accuracy
-      - Send the text response output to debug node and (http post node)
+  5. __Node Red:__
+    * Create nodes for getting the images from Android Application. (https get)
+    * Initializing. (Reforming the payload and getting respective image needed for image recognition)
+    * Connecting to IBM visual recognition (Must have IBM Visual Recognition access, select classifyImage)
+    * Reforming the text response. (Loop through the msg.paylod and get the text required)
+        __*msg.result.images[0].classifiers[0].classes[i]> and a condition to get classes > 0.60 for accuracy*__
+    * Send the text response output to debug node and http post node.
   6. Build the Android application and set an emulator for test.
   7. Run the application and get the response as an Audio.
   
-Images:
+### Author
+
+__Project Team__
+1. Kishan Patel (Responsible for Android Development and Google Services)
+2. Viswanadh Bhaskarla (Responsible for Project planning, IBM Cloud services, IBM Node red flows, API Integration and Testing)
+
+### Project Images
 
 ![Architecture](https://user-images.githubusercontent.com/6322818/79527378-c704d600-80aa-11ea-92f7-42ef390dcaa2.jpg)
 
