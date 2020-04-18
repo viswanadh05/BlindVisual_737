@@ -32,20 +32,20 @@ __Project core functions:__
   3. Update API's and access keys.
   4. Create a new IBM node red account in IBM BlueMix. 
   5. __Node Red:__
-    * Create nodes for getting the images from Android Application. (https get)
-    * Initializing. (Reforming the payload and getting respective image needed for image recognition)
-    * Connecting to IBM visual recognition (Must have IBM Visual Recognition access, select classifyImage)
-    * Reforming the text response. (Loop through the msg.paylod and get the text required)
+    * Create nodes for getting the images from Android Application. (https get) 1
+    * Initializing. (Reforming the payload and getting respective image needed for image recognition) 2
+    * Connecting to IBM visual recognition (Must have IBM Visual Recognition access, select classifyImage) 3
+    * Reforming the text response. (Loop through the msg.paylod and get the text required) 4
         __*msg.result.images[0].classifiers[0].classes[i]> and a condition to get classes > 0.60 for accuracy*__
-    * Send the text response output to debug node and http post node.
+    * Send the text response output to debug node and http post node. 5
   6. Build the Android application and set an emulator for test.
   7. Run the application and get the response as an Audio.
   
 ### Author
 
 __Project Team__
-1. Kishan Patel (Responsible for Android Development and Google Services)
-2. Viswanadh Bhaskarla (Responsible for Project planning, IBM Cloud services, IBM Node red flows, API Integration and Testing)
+1. __Kishan Patel__ (Responsible for Android Development and Google Services)
+2. __Viswanadh Bhaskarla__ (Responsible for Project planning, IBM Cloud services, IBM Node red flows, API Integration and Testing)
 
 ### Project Images
 
